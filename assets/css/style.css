@@ -16,7 +16,7 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
-/* base */
+/* ====== base ======================================================== */
 a {
   text-decoration: none;
 }
@@ -70,7 +70,7 @@ a {
   word-break: break-all;
 }
 
-/* =================header================== */
+/* =========== header =========================================================== */
 .header {
   background: #fffcf4;
 }
@@ -126,7 +126,7 @@ a {
 .header .action {
   margin-left: 49px;
 }
-/* hero */
+/*=========== hero ======================================================================*/
 .hero {
   padding: 56px 0 65px;
   background: #fffcf4;
@@ -136,7 +136,7 @@ a {
   display: flex;
 }
 
-/* hero left */
+/*======= hero left =============*/
 .hero .media-block {
   position: relative;
   width: 48%;
@@ -198,7 +198,7 @@ a {
   line-height: 1.86; /* 185.714% */
 }
 
-/* hero right */
+/*============= hero right ======================= */
 .hero .content-block {
   width: 52%;
   padding-left: 130px;
@@ -282,7 +282,7 @@ a {
   margin-left: 28px;
 }
 
-/* popular */
+/*============= popular =====================================================*/
 .popular {
   padding: 65px 0;
   margin-top: 135px;
@@ -478,4 +478,75 @@ a {
   font-style: italic;
   font-weight: 400;
   line-height: 1.54; /* 153.846% */
+}
+
+/* ================ features1 ==================================================== */
+.features {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .images {
+  display: flex;
+  gap: 30px;
+}
+
+.features .images img {
+  width: 270px;
+  height: 404px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.features .lower {
+  margin-top: 34px;
+}
+
+.features .content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+
+.features .cta-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  background: var(--primary-color);
+}
+
+/* ================ features2 ==================================================== */
+.features-2nd {
+  margin-top: 70px;
+}
+
+.features-2nd .body {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.features-2nd .content {
+  width: 49%;
+}
+
+.features-2nd .images img {
+  width: 470px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 20px;
 }
